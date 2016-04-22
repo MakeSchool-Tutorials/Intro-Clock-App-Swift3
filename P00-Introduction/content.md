@@ -3,7 +3,7 @@ title: "Fix the Clock: Introduction"
 slug: introduction
 ---
 
-_Fix the Clock_ is an extension of the lesson in the Make School CSP Variables course. In this tutorial, you'll learn how to take the clock face that you set in Playgrounds, and have it run on the iPhone Simulator or your own iPhone device! Also, you'll learn how to navigate through the Xcode interface and navigate through project files.
+_Fix the Clock_ is an extension of the lesson in the Swift CSP Variables course. In this tutorial, you'll learn how to take the clock face that you set in Playgrounds, and have it run on the iPhone Simulator or your own iPhone device! Also, you'll learn how to navigate through the Xcode interface and navigate through project files.
 
 ## Prerequisites
 
