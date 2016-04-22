@@ -23,6 +23,8 @@ That's right: currently, all the functions in `ClockFace.swift` are returning 0!
 
 In order to retrieve the hour, minute, and second values of the current time, it's necessary to understand the classes that we would have to make calls to. The way Apple's API handles date and time is quite elegant: Due to timezones, alternate (Non-Gregorian) calendars, etc., the concept of a "moment in time" and the "interpretation" of said time, are separated out in its own categories. The `NSDate` class handles retrieval of a "moment in time", and `NSCalendar` handles the "interpretation" part.
 
+If you want more information on these classes, Matt Thompson has an excellent post detailing NSDateComponents [here](http://nshipster.com/nsdatecomponents/).
+
 So what does this mean in code? Read on:
 
 In order to get the current time (in as accurate as milliseconds), you instantiate a new `NSDate` object, like so:
