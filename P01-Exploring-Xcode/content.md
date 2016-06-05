@@ -3,7 +3,7 @@ title: "Exploring Xcode"
 slug: exploring-xcode
 ---
 
-Great! So far, your screen should look something like this:
+Your screen should look something like this:
 
 ![The Xcode window](./assets/xcode-window.png)
 
@@ -17,10 +17,16 @@ Let's dissect the different user interface elements we're seeing here:
 - There is a __Debug Area__ pane at the bottom side of your window; this would display your `print()` statements if you decided to run any from your code. If you don't see it, click the middle button in the 3-button group at the top right corner of your window, or press the shortcut ⇧⌘Y. The debug area is very useful for testing your program output!
 - Lastly, at the top left corner of the window – right next to the window close/minimize/maximize buttons – are your __Play__, __Stop__, and __Device Selection__ buttons! Hitting Play will compile and run your code, and hitting Stop will stop execution of your code. Clicking on the Devices menu will allow you to select the __iOS Simulator__ that you'd like to use to run the project, or a physical iOS device that you have connected to the computer. If you don't have any simulators installed, you can install them from the "Add Additional Simulators..." option from the menu.
 
+> [info]
+> Don't worry about memorizing all of this. You can always come back to reference it whenever you want. The more you use Xcode, the more this will all become second nature!
+
+# Running the starter code
+
 Now that we have a grasp of the Xcode interface, let's try running the starter code to see what we're looking at!
 
 > [action]
 > Run the starter code: First, select "iPhone 6s" from the list of simulators. Then, press the Play button!
+>
 > A new application entitled "iOS Simulator" should open up. After a few moments for it to boot up, it should load up the app, displaying a clock on the screen!
 > ![A screenshot with the clock project running.](./assets/clock-demo.png)
 
@@ -29,4 +35,4 @@ Now that we have a grasp of the Xcode interface, let's try running the starter c
 > [info]
 > If the simulator window is too large or zoomed in for your computer screen, you can change the zoom level of the Simulator via the hotkeys ⌘1, ⌘2, and ⌘3.
 
-Great! The text in the app tells you the correct time...but the analog clock is stuck at midnight (or 12:00 noon)! In the next section, you'll write code to fix this, and get our clock working!
+Great! The text in the app tells you the correct time, but the analog clock is stuck at midnight or noon depending on how you look at it! In the next section, you'll write code to fix this, and get our clock working!
