@@ -51,7 +51,7 @@ In order to retrieve the hour, minute, and second values of the current time, it
 If you want more information on these classes, Matt Thompson has an excellent post detailing NSDateComponents [here](http://nshipster.com/nsdatecomponents/).
 
 > [info]
-> A _class_ describes all the values and functions that a _class instance_ or _object_ can use. You can think of a _class_ as a blueprint for it's _objects_. Whenever you _initialize_ a new _object_, Swift will use that blueprint to set up everything in the computer's memory.
+> A _class_ describes all the values and functions that a _class instance_ or _object_ can use. You can think of a _class_ as a blueprint for it's _objects_. Whenever you _initialize_ a new _object_, Swift will use that _class_ as a blueprint to create it.
 >
 > All these new terms might sound like a foreign language right now and that's okay! They'll become second nature in no time.
 
