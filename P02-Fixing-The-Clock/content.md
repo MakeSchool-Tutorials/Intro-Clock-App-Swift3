@@ -59,7 +59,7 @@ If you want more information on these classes, Matt Thompson has an excellent po
 
 This code is already included in _ClockFace.swift_ but it's a good challenge to try and understand it!
 
-In order to get the current time (in as accurate as milliseconds), you _initialize_ or create a new `NSDate` _object_ from the `NSDate` class. The following code creates a new `NSDate` _object_ and saves it to a `let` constant named `date`.
+In order to get the current time (in as accurate as milliseconds), you _initialize_ or create a new `NSDate` _object_ from the `NSDate` class. The following code creates a new `NSDate` _object_ and saves it to a variable named `date`.
 
 ```swift
 var date: NSDate = NSDate()
