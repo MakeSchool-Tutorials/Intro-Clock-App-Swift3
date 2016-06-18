@@ -1,6 +1,6 @@
 ---
 title: "Degrees Rotation, and Math"
-slug: fixing-the-clock
+slug: degrees-rotation-math
 ---
 
 Remember, degrees in a circle go from 0 to 360. In our specific setup, 0 degrees refers to the clock hand in its 12 o'clock position; as the degrees increase, it rotates _clockwise_, until it reaches 12 o'clock at 360 degrees again.
